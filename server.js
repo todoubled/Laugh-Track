@@ -4,7 +4,6 @@
 var express = require('express');
 var app = module.exports = express.createServer();
 var sys = require('sys');
-var fs = require('fs');
 var io = require('socket.io');
 var http = require('http');
 

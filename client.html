@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Laugh Track</title>
+  </head>
+  <body>
+
+    <p><a id="customAlert" href="#" onclick="socket.send('customAlert')">publish customAlert</a></p>
+    <p><a id="customAlert2" href="#" onclic="socket.send('customAlert2')">publish customAlert2</a></p>
+
+    <script type="http://localhost:10721/socket.io/socket.io.js">
+    <script>
+      var socket = new io.Socket(null, { port:10721 });
+      socket.connect();
+
+      socket.on('message', function(message) {
+        console.log(message);
+      });
+    </script>
+
+  </body>
+</html>

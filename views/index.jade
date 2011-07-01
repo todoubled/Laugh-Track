@@ -1,0 +1,10 @@
+<p><a id="customAlert" href="#" onclick="socket.send('customAlert')">publish customAlert</a></p>
+<p><a id="customAlert2" href="#" onclick="socket.send('customAlert2')">publish customAlert2</a></p>
+
+script(src='/socket.io/socket.io.js')
+script(type='text/javascript')
+	var socket = new io.Socket('localhost', {port: 10721});
+	socket.connect();
+	socket.on('message', function(msg){
+		console.log(msg);
+	});

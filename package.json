@@ -5,6 +5,7 @@
 	"author":"Todd Larsen <toddlar@gmail.com>",
 	"dependencies": {
 		"express":">=2.0.0beta3",
-		"socket.io":">=0.6.18"
+		"socket.io":">=0.6.18",
+		"jade":">=0.10.1"
 	}
 }

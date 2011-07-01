@@ -5,7 +5,7 @@ LaughTrack = {
 		input:'#input',  
 		output:'#laughs',  
 		sendTrigger:'#send',  
-		host:'localhost',  
+		host:'laugh-track.nodester.com',  
 		port:'10721'
 	},
 	socket:null,

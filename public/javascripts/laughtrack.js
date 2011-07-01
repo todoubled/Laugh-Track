@@ -70,4 +70,4 @@ LaughTrack = {
 	}
 };
 
-setTimeout(LaughTrack.init, 1000);
+setTimeout(LaughTrack.init, 5000);

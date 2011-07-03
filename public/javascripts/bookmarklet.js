@@ -1,1 +1,10 @@
-javascript:(function(){_socket_io=document.createElement('script');_socket_io.type='text/javascript';_socket_io.src='http://localhost:10721/socket.io/socket.io.js';document.getElementsByTagName('head')[0].appendChild(_socket_io);_laugh_track=document.createElement('script');_laugh_track.type='text/javascript';_laugh_track.src='http://localhost:10721/javascripts/laughtrack.js';document.getElementsByTagName('head')[0].appendChild(_laugh_track);})();
+javascript:(function(){
+	_laugh_track = document.createElement('script');
+	_laugh_track.type = 'text/javascript';
+	_laugh_track.src = 'http://localhost:10721/javascripts/laughtrack.js';
+	_laugh_track.onload = function() {
+		LaughTrack.init();
+	};
+	
+	document.getElementsByTagName('head')[0].appendChild(_laugh_track);
+})();

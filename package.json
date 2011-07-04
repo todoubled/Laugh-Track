@@ -1,11 +1,11 @@
 {
-	"name":"Laugh Track",
+	"name":"laugh-track",
 	"description":"Add a chat log to any web page for real-time comments",
 	"version":"0.0.1",
 	"author":"Todd Larsen <toddlar@gmail.com>",
 	"dependencies": {
-		"express":">=2.0.0beta3",
-		"socket.io":">=0.6.18",
-		"jade":">=0.10.1"
+		"express":">= 2.0.0beta3",
+		"socket.io":">= 0.6.18",
+		"jade":">= 0.10.1"
 	}
 }
